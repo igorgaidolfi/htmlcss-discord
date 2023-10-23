@@ -37,7 +37,7 @@
 }
 .label{
     border-radius: 20px;
-    padding: 7px;
+    padding: 12px;
     vertical-align: middle;
 }
 .bg-white{
@@ -125,11 +125,23 @@ li{
     padding: 70px 0;
 }
 /* fino qui */
-.bg-green{
-    background-color: #228b22;
+.container-big{
+    max-width: 874px;
 }
-.height-1000{
-    height: 1000px;
+.column{
+    flex-direction: column;
+}
+h3{
+    margin: 20px 0;
+    font-size: 32px;
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+}
+.bg-ds-color{
+    background-color: #8ea1e1;
+}
+.fsize-24{
+    font-size: 24px
 }
 /* FOOTER */
 footer{
