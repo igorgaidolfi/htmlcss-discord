@@ -143,9 +143,22 @@ h3{
 .fsize-24{
     font-size: 24px
 }
+.fsize-34{
+    font-size: 34px
+}
 /* FOOTER */
 footer{
-    padding: 10px 0;
+    padding: 50px 0;
+}
+.flex{
+    flex-direction: column;
+}
+.line-height-foot{
+    margin: 25px 0;
+    line-height: 1.7;
+}
+.font-ds-color{
+    color: #8ea1e1
 }
 .col-30{
     width: 30%;
@@ -159,8 +172,8 @@ footer{
 .col-17{
     width: calc(100% / 4);
 }
-.border-white{
-    border: 2px dashed white;
+.flag{
+    height: 15px;
 }
 hr{
     background-color: lightgrey;
@@ -170,14 +183,11 @@ hr{
     display: flex;
     justify-content: space-between;
 }
-.bg-aqua{
-    background-color: #7fffd4;
+.padding-x-75{
+    padding: 0 75px;
 }
 .padding-y-20{
     padding: 20px 0px;
-}
-.bg-lightpink{
-    background-color: #ffb6c1;
 }
 .padding-y-10{
     padding: 10px;
