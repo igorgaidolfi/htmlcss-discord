@@ -15,7 +15,7 @@
     width: 100%;
 }
 .border-black{
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
 .col-100{
     width: 100%;
@@ -98,15 +98,19 @@ li{
 .margin-x-10{
     margin: 0 10px ;
 }
-/* fino qui */
-.bg-blue{
-    background-color: #1e90ff;
+.subtitle{
+    text-align: left;
+    margin: 20px 0; 
 }
-.col-40{
-    width: 40%;
+.padding-margin-51{
+    margin: 0 51px;
+    padding: 51px;
 }
-.bg-pink{
-    background-color: #ffc0cb;
+.reverse{
+    flex-direction: row-reverse;
+}
+.align-center{
+    align-items: center;
 }
 .bg-grey{
     background-color: #f6f6f6;
@@ -114,6 +118,13 @@ li{
 .margin-y-30{
     margin: 30px 0;
 }
+.margin-y-70{
+    margin: 70px 0;
+}
+.padding-y-70{
+    padding: 70px 0;
+}
+/* fino qui */
 .bg-green{
     background-color: #228b22;
 }
